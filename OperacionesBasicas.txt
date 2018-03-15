@@ -5,7 +5,7 @@
             int b1 = Integer.parseInt(b, 2);
             int c1 = a1 + b1;
             resultado = Integer.toString(c1, 2);
-        }
+        } 
         catch(Exception e){
             resultado = "Error";
         }  
