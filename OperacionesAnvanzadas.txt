@@ -1,7 +1,10 @@
 
 public double factorial_recursivo(int valor){
-<<<<<<< HEAD
-	
+	if (valor == 0) {
+        return 1;
+    } else {
+        return valor * (Factorial_Recursivo(valor - 1));
+    }
 }
 
 public double Factorial_No_Recursivo(int valor) {
@@ -15,11 +18,4 @@ public double Factorial_No_Recursivo(int valor) {
         }
     }
     return fact;
-=======
-	if (valor == 0) {
-        return 1;
-    } else {
-        return valor * (Factorial_Recursivo(valor - 1));
-    }
->>>>>>> 9f52c0794cf90f64d2fca1c6bb99ba01e202ea58
 }
