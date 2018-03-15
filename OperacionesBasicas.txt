@@ -10,7 +10,7 @@
             resultado = "Error";
         }  
         return resultado;
-    }
+    } 
 
     public String Resta(String a, String b) {
         String resultado;
