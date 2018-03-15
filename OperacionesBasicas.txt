@@ -66,3 +66,8 @@
         }
         return resultado;
     }
+
+    public int Potencia (int m, int n) {
+        if (n==0) { return 1;
+        } else  { return m * Potencia (m, n-1); }
+    }
