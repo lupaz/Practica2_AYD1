@@ -24,7 +24,7 @@
             resultado = "Error";
         }
         return resultado;
-    }
+    } 
 
     public String Multiplicacion(String a, String b) {
         int a1 = Integer.parseInt(a, 2);
